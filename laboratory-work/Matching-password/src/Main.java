@@ -7,6 +7,11 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+/*
+Author: Buchnev Vyacheslav 02421
+tg: @SlavaBuchnev
+project: https://github.com/Slava55555/mobile-platforms-course
+*/
 
 public class Main {
 
