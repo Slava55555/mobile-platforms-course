@@ -5,7 +5,7 @@
 ДЕТАЛИ РЕАЛИЗАЦИИ:
 
 1. Абстрактный класс Course:
-   - Общий параметр: credits (количество кредитов ECTS)
+   - Общий параметр: creditUnits (количество ЗЕ)
    - Общие поля: courseCode (код курса), courseName (название), instructor (преподаватель)
    - Абстрактный метод getCourseType() для получения типа курса
    - Абстрактный метод getWorkload() для расчета учебной нагрузки
@@ -14,7 +14,7 @@
 2. Классы-наследники с уникальными параметрами:
    - LectureCourse: lectureHours (лекционные часы), hasExam (наличие экзамена)
    - LabCourse: labWorks (количество лабораторных работ), labEquipment (оборудование)
-   - PracticalCourse: practicalClasses (максимум студентов), requiredMaterials (оборудование)
+   - PracticalCourse: practicalClasses (количество практических работ), requiredMaterials (оборудование)
 
 3. Особенности реализации:
    - Каждый тип курса имеет уникальный ответ getAssessmentType()
