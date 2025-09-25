@@ -13,7 +13,7 @@ tg: @SlavaBuchnev
 project: https://github.com/Slava55555/mobile-platforms-course
 */
 
-public class Main {
+public class Main1 {
 
     public static void main(String[] args) {
         try {

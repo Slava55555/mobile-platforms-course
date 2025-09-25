@@ -1,0 +1,12 @@
+Ivanov apple 5
+Petrov banana 3
+Ivanov apple 2
+Sidorov orange 10
+Ivanov banana 1
+Petrov apple 4
+Ivanov apple 3
+Sidorov banana 2
+Petrov banana 5
+Ivanov orange 7
+Sidorov apple 8
+Petrov orange 6

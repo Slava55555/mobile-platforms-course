@@ -1,7 +1,7 @@
 package test;
 
 import org.junit.jupiter.api.Test;
-import src.Main;
+import src.Main1;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -15,7 +15,7 @@ class MainTest {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         try {
             System.setOut(new PrintStream(outputStream));
-            Main.main(new String[]{});
+            Main1.main(new String[]{});
             String output = outputStream.toString().trim();
 
             assertAll("Output validation",
