@@ -1,5 +1,9 @@
-
 import java.util.*;
+/*
+Author: Buchnev Vyacheslav 02421
+tg: @SlavaBuchnev
+project: https://github.com/Slava55555/mobile-platforms-course
+*/
 
 public class University {
     public static void main(String[] args) {

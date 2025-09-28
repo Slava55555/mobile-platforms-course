@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Objects;
 import java.util.zip.CRC32;
 import java.io.BufferedReader;

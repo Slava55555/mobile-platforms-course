@@ -1,3 +1,9 @@
+/*
+Author: Buchnev Vyacheslav 02421
+tg: @SlavaBuchnev
+project: https://github.com/Slava55555/mobile-platforms-course
+*/
+
 public class RobotStepik {
 
     public enum Direction {

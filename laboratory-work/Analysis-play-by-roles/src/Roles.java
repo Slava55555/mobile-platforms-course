@@ -1,5 +1,10 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
+/*
+Author: Buchnev Vyacheslav 02421
+tg: @SlavaBuchnev
+project: https://github.com/Slava55555/mobile-platforms-course
+*/
 
 public class Roles {
     private static String printTextPerRole(String[] roles, String[] textLines) {
