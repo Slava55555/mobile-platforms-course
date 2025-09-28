@@ -1,4 +1,27 @@
-public class Robot {
+public class RobotStepik {
+
+    public enum Direction {
+        UP,
+        DOWN,
+        LEFT,
+        RIGHT
+    }
+
+    public abstract class Robot {
+
+        public abstract Direction getDirection();
+
+        public abstract int getX();
+
+        public abstract int getY();
+
+        public abstract void turnLeft();
+
+        public abstract void turnRight();
+
+        public abstract void stepForward();
+    }
+
 
     public static void moveRobot(Robot robot, int toX, int toY) {
 
