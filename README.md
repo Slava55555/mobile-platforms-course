@@ -70,7 +70,8 @@ mobile-platforms-course/
 │   ├── shopping-list/              # Список покупок
 │   ├── Inheritance/                # Разработка классов с интерфейсом Comparable
 │   ├── Stepik-robot/               # Реализация класса для управления роботом
-│   └── Analysis-play-by-roles/     # Разбор пьесы по ролям
+│   ├── Analysis-play-by-roles/     # Разбор пьесы по ролям
+│   └── City-app/                   # Приложение для выбора города с наиболее тёплой погодой
 └── README.md                       # краткое описание репозитория
 ```
 
