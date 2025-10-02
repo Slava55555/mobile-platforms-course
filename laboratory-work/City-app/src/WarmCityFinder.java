@@ -10,33 +10,25 @@ import java.util.*;
 public class WarmCityFinder {
     final static String API_URL = "http://api.openweathermap.org/data/2.5/weather?q=%s&appid=d6843ab8ee963f5d372296dfff62aed7";
 
-    private static final String[] CITIES = {
-            "Moscow", "Sochi", "Krasnodar", "Yalta", "Anapa",
-            "Gelendzhik", "Adler", "Tuapse", "Novorossiysk", "Yeysk"
-    };
-
     public static void main(String[] args) throws IOException, InterruptedException {
+
+        List<String> citiesToCheck = new ArrayList<>(Arrays.asList(
+                "Moscow", "Sochi", "Krasnodar", "Yalta", "Anapa",
+                "Gelendzhik", "Adler", "Tuapse", "Novorossiysk", "Yeysk"
+        ));
+
         System.out.println("=== Поиск самых теплых городов ===\n");
 
-        // Первая попытка без Иркутска
         System.out.println("ПОПЫТКА 1: Без Иркутска");
-        findWarmestCities(false);
-
-        System.out.println("\n" + "=".repeat(50) + "\n");
-
+        findWarmestCities(citiesToCheck);
 
         System.out.println("ПОПЫТКА 2: С Иркутском");
-        findWarmestCities(true);
+        citiesToCheck.add("Irkutsk");
+
+        findWarmestCities(citiesToCheck);
     }
 
-    private static void findWarmestCities(boolean includeIrkutsk) throws InterruptedException {
-        List<String> citiesToCheck = new ArrayList<>(Arrays.asList(CITIES));
-
-        if (includeIrkutsk) {
-            citiesToCheck.add("Irkutsk");
-            System.out.println("Добавлен Иркутск в список для проверки");
-        }
-
+    private static void findWarmestCities(List<String> citiesToCheck) throws InterruptedException {
         List<WeatherThread> threads = new ArrayList<>();
         List<Weather> weatherData = new ArrayList<>();
 
