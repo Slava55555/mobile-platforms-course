@@ -49,7 +49,7 @@
 
 
 ### 1) Приложение для сложения двух чисел
-[📱 Решение задачи](https://github.com/Slava55555/Android-application/tree/main/basics-android-development/add-two-numbers)
+[📱 Решение задачи](https://github.com/Slava55555/Android-application/tree/master/solutions/add-two-numbers)
 
 ### 2) Разметка приложения для бронирования авиабилетов
 Решения пока нет
