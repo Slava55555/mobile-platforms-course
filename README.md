@@ -41,7 +41,6 @@
 <details>
 <summary>📋 Список задач</summary>
 
-<a id="android-repo-note"></a>
 ### 🔗 Android проекты вынесены в отдельный репозиторий(⚠️ Временное решение):
 - В настоящий момент пишу решения по этому модулю тут: **[Android-application](https://github.com/Slava55555/Android-application)**
 - Как появиться время перенесу в этот репозиторий, но из-за дедлайнов пока что так
@@ -85,14 +84,14 @@
 
 ```
 mobile-platforms-course/
-├── laboratory-work/
+├── laboratory-work/                # Модуль: Создание консольных Java-приложений
 │   ├── Matching-password/          # Подбор пароля с CRC32
 │   ├── shopping-list/              # Список покупок
 │   ├── Inheritance/                # Разработка классов с интерфейсом Comparable
 │   ├── Stepik-robot/               # Реализация класса для управления роботом
 │   ├── Analysis-play-by-roles/     # Разбор пьесы по ролям
 │   └── City-app/                   # Приложение для выбора города с наиболее тёплой погодой
-├── basics-android-development/     # ⚠️ ВРЕМЕННО В ДРУГОМ РЕПОЗИТОРИИ
+├── basics-android-development/     # Модуль: Основы разработки для ОС Android (⚠️ ВРЕМЕННО В ДРУГОМ РЕПОЗИТОРИИ)
 └── README.md                       # краткое описание репозитория
 ```
 
@@ -102,6 +101,8 @@ mobile-platforms-course/
 
 ## Технологии
 - Java
+- Gradle
+- Android SDK
 
 ## Будущие доработки
 - Добавление unit тестов на некоторые задачи(в данный момент отсутствуют в связи с плотным графиком)
