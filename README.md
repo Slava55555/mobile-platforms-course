@@ -54,7 +54,7 @@
 [📱 Решение задачи](https://github.com/Slava55555/Android-application/tree/master/solutions/marking-for-booking-flights)
 
 ### 3) Приложение "Случайный фильм" 
-Решения пока нет
+[📱 Решение задачи](https://github.com/Slava55555/Android-application/tree/master/solutions/random-movie)
 
 ### 4) Игра "Угадай число"
 Решения пока нет
