@@ -1,25 +1,32 @@
-# IntelliJ IDEA - ВСЮ папку .idea
-.idea/
+.gradle
+/.idea/
 
-# Файлы модулей IDEA
-*.iml
 
-# Скомпилированные классы
-out/
-production/
 build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.iws
+*.iml
+*.ipr
 
-# Логи
-*.log
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Файлы операционных систем
-.DS_Store
-Thumbs.db
+# Игнорируем build файлы во всех заданиях
+assignments/*/build/
+assignments/*/.gradle/
+assignments/*/.idea/
+assignments/*/*.iml
+assignments/*/local.properties
+assignments/*/app/build/
 
-# Временные файлы
-*.tmp
-*.temp
-*~
+# Но оставляем исходный код и конфиги
+!assignments/*/app/src/
+!assignments/*/app/build.gradle
+!assignments/*/build.gradle
+!assignments/*/settings.gradle
+!assignments/*/gradle/wrapper/
 
-# Библиотеки
-library/
+

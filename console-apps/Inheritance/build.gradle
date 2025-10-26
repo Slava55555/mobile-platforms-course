@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'inheritance.University'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}

@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'matchingpassword.Main1'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:6.0.0'
+}

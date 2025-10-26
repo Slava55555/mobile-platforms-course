@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "mobile-platfroms-course"
+include 'console-apps:Analysis-play-by-roles'
+include 'console-apps:City-app'
+include 'console-apps:Inheritance'
+include 'console-apps:Matching-password'
+include 'console-apps:Shopping-list'
+include 'console-apps:Stepik-robot'
+
+include 'android-basics:add-two-numbers'
+include 'android-basics:marking-for-booking-flights'
+include 'android-basics:random-movie'
+//include 'basics-android-development:guess-the-num'
+//include 'basics-android-development:calling-corresponding-uri'

@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'stepikrobot.RobotStepik'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}
