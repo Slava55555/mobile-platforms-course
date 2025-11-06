@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:gravity="center">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Угадай число"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp" />
+
+    <EditText
+            android:id="@+id/editTextMin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Минимум"
+            android:inputType="numberSigned"
+            android:text="1" />
+
+    <EditText
+            android:id="@+id/editTextMax"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Максимум"
+            android:inputType="numberSigned"
+            android:text="100"
+            android:layout_marginTop="10dp" />
+
+    <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Начать"
+            android:layout_marginTop="30dp" />
+
+</LinearLayout>
