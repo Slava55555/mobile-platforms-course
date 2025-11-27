@@ -62,16 +62,13 @@ public class MemoryCard extends AppCompatImageView {
 
     public void updateAppearance() {
         if (isMatched) {
-            // Найденная пара - полупрозрачная
             setAlpha(0.3f);
             setEnabled(false);
         } else if (isRevealed) {
-            // Открытая карта - показываем изображение
             setImageResource(value);
             setBackgroundColor(Color.WHITE);
             setAlpha(1.0f);
         } else {
-            // Закрытая карта - рубашка
             setImageResource(0);
             setBackgroundColor(Color.BLUE); // Синий цвет
             setAlpha(1.0f);

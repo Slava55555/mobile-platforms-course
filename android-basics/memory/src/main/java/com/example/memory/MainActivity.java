@@ -101,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
     private void revealCard(final MemoryCard card) {
         card.setRevealed(true);
 
-        // Анимация переворота
         ObjectAnimator flip = ObjectAnimator.ofFloat(card, "rotationY", 0f, 90f);
         flip.setDuration(150);
         flip.setInterpolator(new AccelerateInterpolator());
@@ -142,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
 
         new Handler().postDelayed(() -> {
             if (firstSelectedCard.getValue() == secondSelectedCard.getValue()) {
-                // Найдена пара
                 firstSelectedCard.setMatched(true);
                 secondSelectedCard.setMatched(true);
                 pairsFound++;
@@ -151,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
                     showWinMessage();
                 }
             } else {
-                // Не совпали - переворачиваем обратно
                 hideCard(firstSelectedCard);
                 hideCard(secondSelectedCard);
             }
