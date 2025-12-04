@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Список людей</string>
+    <string name="add_random_person">Добавить случайного человека</string>
+    <string name="clear_list">Очистить список</string>
+    <string-array name="first_names">
+        <item>Иван</item>
+        <item>Александр</item>
+        <item>Михаил</item>
+        <item>Дмитрий</item>
+        <item>Сергей</item>
+        <item>Андрей</item>
+        <item>Алексей</item>
+        <item>Артем</item>
+        <item>Николай</item>
+        <item>Владимир</item>
+        <item>Павел</item>
+        <item>Евгений</item>
+        <item>Константин</item>
+        <item>Максим</item>
+        <item>Олег</item>
+    </string-array>
+
+    <string-array name="last_names">
+        <item>Иванов</item>
+        <item>Петров</item>
+        <item>Сидоров</item>
+        <item>Смирнов</item>
+        <item>Кузнецов</item>
+        <item>Попов</item>
+        <item>Васильев</item>
+        <item>Павлов</item>
+        <item>Семенов</item>
+        <item>Голубев</item>
+        <item>Виноградов</item>
+        <item>Богданов</item>
+        <item>Воробьев</item>
+        <item>Федоров</item>
+        <item>Михайлов</item>
+    </string-array>
+</resources>
