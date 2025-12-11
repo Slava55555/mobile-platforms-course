@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Алексей Иванов",
+    "phoneNumber": "+7 (912) 345-67-89",
+    "avatarType": "hero"
+  },
+  {
+    "name": "Мария Петрова",
+    "phoneNumber": "+7 (923) 456-78-90",
+    "avatarType": "princess"
+  },
+  {
+    "name": "Дмитрий Смирнов",
+    "phoneNumber": "+7 (956) 789-01-23",
+    "avatarType": "robot"
+  }
+]

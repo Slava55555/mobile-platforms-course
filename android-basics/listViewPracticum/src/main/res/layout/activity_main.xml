@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="8dp"
+              android:background="@drawable/background_gradient">
+
+    <!-- Заголовок -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Контактная книга"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    <!-- Панель сортировки -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+        <Button
+                android:id="@+id/btnSortName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Имя"
+                android:backgroundTint="#4CAF50"
+                android:layout_margin="4dp"/>
+
+        <Button
+                android:id="@+id/btnSortPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Телефон"
+                android:backgroundTint="#2196F3"
+                android:layout_margin="4dp"/>
+
+        <Button
+                android:id="@+id/btnSortAvatar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Аватар"
+                android:backgroundTint="#FF9800"
+                android:layout_margin="4dp"/>
+
+    </LinearLayout>
+
+    <!-- Кнопка добавления -->
+    <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Добавить контакт"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"/>
+
+    <!-- Список контактов -->
+    <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"/>
+
+</LinearLayout>

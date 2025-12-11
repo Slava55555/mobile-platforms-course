@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="100dp"
+        android:height="100dp"
+        android:viewportWidth="100"
+        android:viewportHeight="100">
+
+    <!-- Голова -->
+    <path
+            android:fillColor="#607D8B"
+            android:pathData="M35,30 h30 v30 h-30 a5,5 0 0,1 -5,-5 v-20 a5,5 0 0,1 5,-5"/>
+
+    <!-- Антенны -->
+    <path
+            android:fillColor="#000000"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M40,25 Q40,20 38,18"/>
+    <path
+            android:fillColor="#000000"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M60,25 Q60,20 62,18"/>
+
+    <!-- Глаза-дисплеи -->
+    <path
+            android:fillColor="#00BCD4"
+            android:pathData="M40,40 h8 v8 h-8 a2,2 0 0,1 -2,-2 v-4 a2,2 0 0,1 2,-2"/>
+    <path
+            android:fillColor="#00BCD4"
+            android:pathData="M52,40 h8 v8 h-8 a2,2 0 0,1 -2,-2 v-4 a2,2 0 0,1 2,-2"/>
+
+    <!-- Рот-динамик -->
+    <path
+            android:fillColor="#37474F"
+            android:pathData="M43,55 h14 v3 h-14 a1,1 0 0,1 -1,-1 v-1 a1,1 0 0,1 1,-1"/>
+
+    <!-- Тело -->
+    <path
+            android:fillColor="#455A64"
+            android:pathData="M30,65 h40 v20 h-40 a5,5 0 0,1 -5,-5 v-10 a5,5 0 0,1 5,-5"/>
+
+    <!-- Кнопки на груди -->
+    <path
+            android:fillColor="#FF5722"
+            android:pathData="M40,75 a2,2 0 1,1 0,0.1 z"/>
+    <path
+            android:fillColor="#4CAF50"
+            android:pathData="M50,75 a2,2 0 1,1 0,0.1 z"/>
+    <path
+            android:fillColor="#2196F3"
+            android:pathData="M60,75 a2,2 0 1,1 0,0.1 z"/>
+</vector>
